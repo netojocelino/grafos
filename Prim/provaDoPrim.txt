@@ -1,0 +1,6 @@
+Dada uma árvore mínima B = (S,E′), subconjunto da árvore geradora mínima T, podemos adicionar ao conjunto B a aresta leve (u,v) e manter B⊂T. Uma aresta leve é a aresta de menor peso que liga um elemento u ∈ S a um elemento v ∈ (V−S).
+
+Dessa maneira, adicionando-se a cada passo a aresta mínima que liga um elemento que está na árvore a um elemento que não está na árvore, ao adicionarmos V−1 arestas teremos somente uma única árvore geradora, que será mínima.
+
+Referência: {Algoritmos: Teoria e Prática
+Livro por Charles Eric Leiserson, Ronald Rivest e Thomas H. Cormen}

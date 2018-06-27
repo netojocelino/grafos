@@ -1,0 +1,4 @@
+Operações
+
+O número de operações aproximado utilizando matriz de adjacência para o algoritmo prim.py é:
+O(V²) no pior caso.
