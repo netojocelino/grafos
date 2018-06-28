@@ -1,0 +1,14 @@
+1- Supondo que o grafo orientado ponderado G=(V, E) não possui ciclos negativos atingíveis por s (origem). 
+
+2- Provamos que o algortimo está correto para o grafo G com base na propriedade de relaxamento de caminho.
+
+3- Considere qualquer vértice v que seja acessível a partir de s, e seja p = (v 0 , v 1 , ... v k ), onde v 0 = s e v k = v, qualquer acíclico caminho mais curto de s para v. O caminho p tem no máximo |V| - 1 arestas, e assim k <= |V| - 1.
+
+4- Cada uma das |V| - 1 iterações do loop no algortimo relaxa todas as |E| arestas.
+
+5- Entre as arestas relaxadas na i-ésima iteração, para i = 1, 2, ... k, encontra-se (v i-1 , v i ). 
+
+6- Então pela propriedade de relaxamento de caminho, d[v] = d[v k ] = dist(s, v k ) = dist(s, v).
+
+Referência: {Algoritmos: Teoria e Prática
+Livro por Charles Eric Leiserson, Ronald Rivest e Thomas H. Cormen}

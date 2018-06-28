@@ -1,0 +1,5 @@
+O algoritmo é executado no tempo O(V E), onde V = qtd. vértices e E = qtd. arestas.
+
+Referência:
+Cormen, T.H.;Leiserson, C.E.; Rivest, R.L.; Stein, C.; Algoritmos. Tradução da 2ª
+edição americana Teoria e Prática, 2002.
