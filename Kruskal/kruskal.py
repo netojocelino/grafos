@@ -146,9 +146,9 @@ if __name__ == '__main__':
  # usar user()
  # "vertices: " exemplo: "A B C"
  # "edge: " exemplo: "1 a b" <enter> "3 a c" <enter> "2 b c"
- #user()
+ user()
  # usar param(string vertices, string[] weight_vertices)
  # vertices: string contendo todos os vertices separados por virgula (eg: "A B C D")
  # weight_vertices: array dee string contendo o peso da aresta e os vertices incidentes
  # ex: seja A (Aracaju) D (N S Dores) R (Ribeiropolis) I (Itabaiana) G (N S Gloria)
- param("A D R I G", ["73 A D", "57 A I", "34 D R", "22 R I", "45 D G", "40 G R", "60 G I"])
+ #param("A D R I G", ["73 A D", "57 A I", "34 D R", "22 R I", "45 D G", "40 G R", "60 G I"])
