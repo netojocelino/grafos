@@ -1,0 +1,27 @@
+ANALISE COMPLEXIDADE DE DIJKSTRA
+N é o número de vértices.
+
+1. Na 1ª linha, tem-se O(1);
+2. Do 1º loop, tem-se O(N);
+
+4. No 2º loop tem-se O(N);
+5. Da parte interna do 2º loop, O(1);
+
+6. De 4 e 5 tem-se O(N);
+
+7. Após o 2º while, tem-se O(1) e O(N), resultando em O(N);
+
+8. Ao final do 1º while, tem-se O(1);
+
+Juntando os elementos que importam:
+
+9. Da parte interna do primeiro while, tem-se O(N), passo 6,
+   e O(N), passo 7. Isso leva a O(N+N) = O(N);
+
+10. Da execução do 1º while sobre o passo 9, tem-se O(N) x O(N),
+    o que leva a O(N^2).
+
+Portanto, a complexidade do algoritmo é O(N^2), no pior caso.
+
+
+
